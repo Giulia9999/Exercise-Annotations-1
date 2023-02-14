@@ -7,12 +7,12 @@ public class Car {
         this.mileage = mileage;
     }
     @Deprecated
-    public void printCarDetails(){
+    public void getCarDetails(){
         System.out.println(modelName);
         System.out.println(mileage);
     }
 
-    public void getCarDetails(){
+    public void printCarDetails(){
         System.out.println(modelName + " - " + mileage);
     }
 }
